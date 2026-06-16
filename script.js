@@ -144,7 +144,6 @@ function add(a,b) {
 
 // console.log(myFun(2,22));
 
-
 // let heading = document.getElementsByTagName("h1")
 // heading[2].innerText = "bye bye"
 // //console.log(heading[0].innerText);
@@ -154,12 +153,18 @@ function add(a,b) {
 // para.innerHTML = "<b>adios</b>"
 // let hola = document.getElementsByClassName('hola')
 // hola[1].innerHTML = "buchi boo"
+// const change = () => {
+//     let display = document.getElementById('display')
+//     display.innerHTML = "ByeBye"
+//     display.style.backgroundColor = "pink"
+//     display.style.color = 'green'
+
+//  }
 const change = () => {
     let display = document.getElementById('display')
     display.innerHTML = "ByeBye"
-    display.style.backgroundColor = "pink"
+    display.style.backgroundColor = "yellow"
     display.style.color = 'green'
 
  }
-
 
